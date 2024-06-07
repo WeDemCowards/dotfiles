@@ -1,1 +1,2 @@
-# dotfiles
+# A place for my dotfiles to live
+Nothing much else to see here...
