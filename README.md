@@ -2,6 +2,8 @@
 Just some of my config files, nothing much else to see here...
 
 To do: 
+- Add more figgies
+	-  .bashrc and .bash_aliases for a start
 - Pick a solution for your config files:
 	- Solution #1: cronjob copies config files to git folder and pushes on regular basis
 	- Solution #2: host all config files in one folder and use symbolic links so their related program knows where they are
