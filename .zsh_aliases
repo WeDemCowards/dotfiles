@@ -1,0 +1,15 @@
+# Terminal Convenience
+alias cls='clear'
+alias q='exit'
+
+# list directory aliases
+alias ls='ls --color=auto'
+alias la='ls -a --color=auto'
+alias ll='ls -l --group-directories-first'
+alias lal='ls -la --group-directories-first'
+alias lla='ls -la --group-directories-first'
+
+# program aliases
+alias vim='nvim'
+alias xmerge='xrdb -merge ~/.Xresources'
+alias py='python3'
