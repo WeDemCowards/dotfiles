@@ -8,8 +8,10 @@ If for some reason you want to use them, here's the software they are for:
 - i3
 - picom
 - rxvt
-- i probably missed something
+- zsh
+
+There are some references to scripts that are not included in this repository.
 
 ## To do: 
-- [ ] Make these usable for normal people
+- [ ] Make these more universal so you don't have to make minor edits every time you use them
 - [ ] Maybe make a script that will install all of these into a home folder *all easy like*
