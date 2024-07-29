@@ -10,6 +10,6 @@ If for some reason you want to use them, here's the software they are for:
 - rxvt
 - i probably missed something
 
-To do: 
+## To do: 
 - Make these usable for normal people
 - Maybe make a script that will install all of these into a home folder *all easy like*
