@@ -13,6 +13,7 @@ If for some reason you want to use them, here's the software they are for:
 - XOrg
 
 Some of these files are very close to the default.
+
 There are some references to scripts that are not included in this repository, and filepaths to specific home folders.
 
 ## To do: 
