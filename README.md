@@ -10,7 +10,7 @@ If for some reason you want to use them, here's the software they are for:
 - rxvt
 - zsh
 
-There are some references to scripts that are not included in this repository.
+There are some references to scripts that are not included in this repository, and filepaths to specific home folders.
 
 ## To do: 
 - [ ] Make these more universal so you don't have to make minor edits every time you use them
