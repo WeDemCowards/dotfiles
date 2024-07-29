@@ -6,10 +6,13 @@ If you find yourself here by chance let me assure you that copying my figgies is
 If for some reason you want to use them, here's the software they are for:
 - neovim
 - i3
+- i3status
 - picom
 - rxvt
 - zsh
+- XOrg
 
+Some of these files are very close to the default.
 There are some references to scripts that are not included in this repository, and filepaths to specific home folders.
 
 ## To do: 
