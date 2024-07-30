@@ -1,7 +1,7 @@
 # A place for my dotfiles to live
 Just some of my config files, nothing much else to see here...
 
-If you find yourself here by chance let me assure you that copying my figgies is a **bad idea**. This shit is terrible. The only reason this repo is public is for conveniences sake.
+If you find yourself here by chance let me assure you that copying my configs is a **bad idea**. This shit is terrible. The only reason this repo is public is for conveniences sake.
 
 If for some reason you want to use them, here's the software they are for:
 - neovim
@@ -14,7 +14,7 @@ If for some reason you want to use them, here's the software they are for:
 
 Some of these files are very close to the default.
 
-There are some references to scripts that are not included in this repository, and filepaths to specific home folders.
+There are some references to scripts that are not included in this repository, and filepaths to specific home folders. Like I said, this is not for use by others.
 
 ## To do: 
 - [ ] Make these more universal so you don't have to make minor edits every time you use them
