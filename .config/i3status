@@ -1,0 +1,121 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        output_format = i3bar
+        colors = true
+        interval = 1
+		# colors "optimized" for bg #C7C7C7 (everything looks like shit against light grey lol)
+		#color_good = '#005000'
+		color_good = '#005000'
+		color_degraded = '#775500'
+		color_bad = '#a00000'
+}
+
+order += "wireless _first_"
+#order += "ethernet _first_"
+order += "disk /"
+order += "load"
+#order += "cpu_temperature 0"
+order += "memory"
+order += "battery all"
+order += "volume master"
+#order += "tztime unix"
+#order += "tztime date"
+order += "tztime local"
+
+
+battery 0 {
+        format = ""
+        separator_block_width = 30
+}
+
+wireless _first_ {
+        #format_up = "W: (%quality at %essid) %ip"
+        format_up = "%essid: %ip"
+        #format_up = "leaked ip: %ip"
+        format_down = "W: down"
+        
+		separator_block_width = 30
+}
+
+ethernet _first_ {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+        
+        separator_block_width = 30
+}
+
+battery all {
+        #format = "%status %percentage %remaining"
+        format = "%status %percentage"
+        
+        separator_block_width = 30
+}
+
+disk "/" {
+        #format = "%avail"
+        format = "DISK: %avail"
+        #format = "disk: [%avail / %total]"
+        
+        separator_block_width = 30
+}
+
+load {
+        #format = "%1min"
+        format = "CPU: %1min\%"
+        
+        separator_block_width = 30
+}
+
+memory {
+        format = "RAM: %percentage_used"
+        #format = "mem: %used"
+        #format = "mem: [%used / %available]"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+        
+        separator_block_width = 30
+}
+
+tztime date {
+        format = " %a %d %B"
+        
+        separator_block_width = 30
+}
+
+tztime local {
+        #format = "%d-%m-%Y %H:%M:%S"
+        format = " %a %d %B %H:%M:%S "
+        #format = " %H:%M:%S "
+		#format = "%s" # unix time (funny)
+        #format = "%d-%m-%Y %H:%M"
+        
+        separator_block_width = 30
+}
+
+volume master {
+        format = "♪  %volume"
+        format_muted = "[M] %volume"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+        
+        separator_block_width = 30
+}
+tztime unix {
+		format = "%s" # unix time
+        
+        separator_block_width = 30
+}
+
+cpu_temperature 0{
+        format = "T: %degrees°C"
+        
+        separator_block_width = 30
+}

@@ -1,3 +1,5 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>f", vim.cmd.Ex)
---vim.keymap.set("n", "<leader>p", builtin.find_files, {})
+-- This one I just chucked in init becuase it would not work here
+-- lol
+--vim.keymap.set("n", "<leader>o", builtin.find_files, {})

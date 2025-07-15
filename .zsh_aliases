@@ -1,15 +1,34 @@
-# Terminal Convenience
+# convenience
 alias cls='clear'
+alias c='clear'
 alias q='exit'
+alias p='sudo pacman'
+alias g='git'
 
-# list directory aliases
-alias ls='ls --color=auto'
-alias la='ls -a --color=auto'
-alias ll='ls -l --group-directories-first'
+# ls
+alias  ls='ls -v --color=auto'
+alias  la='ls -a'
+alias  ll='ls -l --group-directories-first'
+alias   l='ls -l --group-directories-first'
 alias lal='ls -la --group-directories-first'
 alias lla='ls -la --group-directories-first'
 
-# program aliases
+# renames and flag additions
+alias grep='grep --color=auto'
+alias mkd="mkdir -pv"
 alias vim='nvim'
-alias xmerge='xrdb -merge ~/.Xresources'
 alias py='python3'
+alias bc='bc -q -l'
+alias bt='bluetoothctl'
+
+# utilities
+alias cb="xsel --clipboard"
+alias xmerge='xrdb -merge ~/.Xresources'
+alias dirstat='sudo du / -xm | sort -rn'
+alias todo='vim /home/aaron/todo'
+
+# laptop only
+alias buds='bluetoothctl connect C8:2A:DD:6A:BC:AD'
+alias nest='bluetoothctl connect DC:E5:5B:BF:39:00'
+alias keyspls='eval $(ssh-agent) && ssh-add ~/.ssh/laptop_key'
+alias sol='wine ~/games/xp_solitaire/sol.exe'
